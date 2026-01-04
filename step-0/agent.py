@@ -8,7 +8,7 @@ class WeatherAgent:
         self.weather_tool = weather_tool
 
     def run(self, user_input: str) -> str:
-        print("🤖 Agent started")
+        print(" Agent started")
 
         # Step 1: Intent check
         if "weather" not in user_input.lower():
@@ -28,7 +28,7 @@ class WeatherAgent:
         feels = current["FeelsLikeC"]
 
         return (
-            f"🌤 Weather in {city}\n"
+            f"Weather in {city}\n"
             f"Temperature: {temp}°C\n"
             f"Feels Like: {feels}°C\n"
             f"Condition: {desc}"
