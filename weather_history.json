@@ -1,0 +1,12 @@
+[
+  {
+    "user_input": "I want to know the weather for next 2 days",
+    "response": "City not detected \u2014 please specify a city.",
+    "city": null
+  },
+  {
+    "user_input": "I want to know the weather for next 2 days",
+    "response": "City not detected \u2014 please specify a city.",
+    "city": null
+  }
+]
